@@ -1,0 +1,94 @@
+.main_page {
+    background: aquamarine;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.center_page {
+    background: burlywood;
+    box-shadow: 5px, 5px, 25px, -5px rgba(0, 0, 0, 0.5);
+    border-radius: 14px;
+    width: 25%;
+    height: 80vh;
+}
+
+h1 {
+    background: transparent;
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 5%;
+    box-shadow: 5px, 5px, 20px, -5px rgba(0, 0, 0, 0.3)
+}
+
+.input_box {
+    text-align: center;
+    border: none;
+    top: 50px;
+    height: 30px;
+    background: transparent;
+    font-size: 25px;
+    font-weight: 500;
+    width: 60%;
+    border-bottom: 5px solid rgb(99, 184, 111);
+    outline: none;
+}
+
+.list-button {
+    font-size: 30px;
+    border-radius: 30%;
+    border-color: transparent;
+    background-color: rgb(159, 53, 53);
+    color: seashell;
+    border: none;
+    outline: none;
+    box-shadow: 5px, 5px, 15px, -5px rgba(199, 29, 29, 0.3);
+}
+
+.list-button:hover {
+    background-color: green;
+}
+
+
+ol {
+    box-sizing: content-box;
+    background-origin: padding-box;
+
+}
+
+li {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.butoon {
+    font-size: 15px;
+    color: rgb(9, 0, 0) ;
+    border-color:transparent;
+    background-color: rgb(205, 120, 120);
+    box-shadow: solid rgb(201, 112, 112);
+    border-radius: 50%;    
+}
+
+.butoon:hover {
+    background-color:  rgb(235, 14, 28) ;
+}
+
+.remove-all {
+    font-size: 25px;
+    color: rgb(24, 4, 4);
+    background-color: rgb(150, 19, 19);
+    border: 1px solid orange;
+    border-radius: 10%;
+}
+
+.remove-all:hover {
+    background-color: rgb(255, 0, 0);
+}
